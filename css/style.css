@@ -13,6 +13,23 @@ h1 {
 
 }
 
+h2 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+h3 {
+
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.cards span {
+
+    color: blue;
+    font-size: 8px;
+}
+
 p {
     text-align: center;
     color: grey;
@@ -23,29 +40,35 @@ main {
     margin: auto;
 }
 
-.team {
+.team-members {
     margin-top: 50px;
+    
+    
+ 
 }
 
 
 .cards {
  
     width: calc(100% / 3);
+    float:left;
     height: 100px;
-    float: left;
     border: 2px solid yellow;
     color: white;
     background-color: black;
     box-shadow: 5px 0px 15px black ;
-    padding-right: -20px;
+   
+    
 
 }
 
 .clearfix::after {
-    display: table;
+
     content: "";
+    display: table;
     clear: both;
 }
+
 
 
 .cards img {
@@ -58,4 +81,10 @@ main {
 .cards h2 {
 
     padding-top: 10px;
+}
+
+.empty {
+
+    width: 50px;
+    height: 50px;
 }
