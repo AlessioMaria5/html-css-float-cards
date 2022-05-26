@@ -9,7 +9,8 @@ h1 {
     color: fuchsia;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 50px;
-    padding-top: 40px;
+    padding-top: 50px;
+
 }
 
 p {
@@ -18,23 +19,43 @@ p {
 }
 
 main {
-
     width: 70%;
     margin: auto;
-    
 }
 
-.cards {
+.team {
+    margin-top: 50px;
+}
 
+
+.cards {
+ 
     width: calc(100% / 3);
+    height: 100px;
     float: left;
+    border: 2px solid yellow;
+    color: white;
+    background-color: black;
+    box-shadow: 5px 0px 15px black ;
+    padding-right: -20px;
 
 }
 
 .clearfix::after {
-
     display: table;
     content: "";
     clear: both;
 }
 
+
+.cards img {
+
+    height: 100%;
+    float: left;
+    padding-right: 10px;
+}
+
+.cards h2 {
+
+    padding-top: 10px;
+}
